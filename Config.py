@@ -3,7 +3,7 @@ import os
 class Config():
   ENV = bool(os.environ.get('ENV', False))
   if ENV:
-    BOT_TOKEN = os.environ.get("BOT_TOKEN","8173681057:AAFFpIruTwpj7H72WUX4_faMjkKF-2Z7kHo")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN","7565000224:AAFUq8g6xbNExgTGOaRA5gqkBQ-5DTUEY7M")
     DATABASE_URL = os.environ.get("DATABASE_URL",)
     APP_ID = os.environ.get("APP_ID","24644867")
     API_HASH = os.environ.get("API_HASH","7974c2174cd377ebb15e34218cb1d320")
@@ -11,7 +11,7 @@ class Config():
     SUDO_USERS.append(5843255740)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = "8173681057:AAFFpIruTwpj7H72WUX4_faMjkKF-2Z7kHo"
+    BOT_TOKEN = "7565000224:AAFUq8g6xbNExgTGOaRA5gqkBQ-5DTUEY7M"
     DATABASE_URL = ""
     APP_ID = "24644867"
     API_HASH = "7974c2174cd377ebb15e34218cb1d320"
